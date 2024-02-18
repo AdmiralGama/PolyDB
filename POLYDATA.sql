@@ -12,8 +12,14 @@ INSERT INTO people (person_name) VALUES
 ('Flux'),
 ('Cu'),
 ('Ram'),
+('Mael'),
 ('Rem'),
-('Grace');
+('Grace'),
+('Aurora').
+('Lucy'),
+('Zero'),
+('Sonofshu'),
+('Vivi');
 
 INSERT INTO dating (person_1, person_2) VALUES
 ('Petra', 'Grace'),
@@ -21,13 +27,20 @@ INSERT INTO dating (person_1, person_2) VALUES
 ('Petra', 'Lav'),
 ('Petra', 'Eagle'),
 ('Petra', 'Rem'),
+('Petra', 'Sonofshu'),
 ('Lav', 'Cu'),
 ('Lav', 'Grace'),
 ('Lav', 'Eagle'),
 ('Jaiden', 'Cu'),
+('Jaiden', 'Flux'), -- I mean not really but fuck you-
+('Jaiden', 'Mael'),
 ('Flux', 'Cu'),
 ('Flux', 'Ram'),
-('Cu', 'Grace');
+('Cu', 'Grace'),
+('Cu', 'Aurora'),
+('Cu', 'Zero'),
+('Cu', 'Vivi'), -- ?
+('Lucy', 'Zero'); -- ?
 
 INSERT INTO fwb (person_1, person_2) VALUES
 ('Petra', 'Jaiden'),
