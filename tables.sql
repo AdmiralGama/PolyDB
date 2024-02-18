@@ -1,8 +1,10 @@
-DROP TABLE IF EXISTS people;
 DROP TABLE IF EXISTS dating;
 DROP TABLE IF EXISTS fwb;
 DROP TABLE IF EXISTS friends;
 DROP TABLE IF EXISTS adopted;
+
+-- Other tables depend on people so it has to be dropped last
+DROP TABLE IF EXISTS people;
 
 CREATE TABLE people (person_name VARCHAR(30), PRIMARY KEY (person_name));
 
